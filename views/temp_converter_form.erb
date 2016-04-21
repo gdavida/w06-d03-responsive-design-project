@@ -1,10 +1,23 @@
-<h1>Let's Convert Some Temperatures</h1>
 
-<form action="/temp-converter-results" method="get">
-  <input type="text" name="temperature"> Degrees
-  <select name="units">
-    <option value="f">Fahrenheit</option>
-    <option value="c">Celsius</option>
-  </select>
-  <input type="submit" value="Submit">
-</form>
+ <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron minitron">
+      <div class="container">
+        <h1>Convert Temperatures</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-6">
+          <form class="form-group" action="/temp-converter-results" method="get">
+					  <input class="form-control" type="text" name="temperature"> Degrees
+					  <select class="form-control" name="units">
+					    <option value="f">Fahrenheit to Celsius</option>
+					    <option value="c">Celsius to Fahrenheit</option>
+					  </select><br>
+					  <input class="btn btn-default" type="submit" value="Submit">
+					</form>
+       </div>
+      </div>
+
